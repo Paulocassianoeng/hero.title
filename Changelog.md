@@ -16,3 +16,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Project to school (To Learn);
 
 * Page of Biology to talk the culture of a new (old) world!
+
+### Added and Modified
+
+- All page;
+- Put img;
+- News colors in the page;
