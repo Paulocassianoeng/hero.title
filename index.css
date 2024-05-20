@@ -1,38 +1,202 @@
 * {
   box-sizing: border-box;
-  font-family: "Oxygen";
-  padding: 0;
   margin: 0;
+  padding: 0;
+  font-family: Oxygen, ystem-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+:root {
+  --color-background: #030207;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+}
+
+/* Area of the first Page*/
 .hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), #030207);
+  height: 100vh;
   position: relative;
-  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), var(--color-background));
 }
 
 .hero__background {
   object-fit: cover;
   position: absolute;
-  top: 0;
-  height: 100vh;
-  width: 100%;
   z-index: -10;
+  width: 100%;
+  height: 100%;
 }
 
 .hero__foreground {
   text-align: center;
-  padding-top: 40vh;
-  color: white;
+  padding-top: 45vh;
+  font-weight: 300;
 }
 
 .hero__title {
   font-size: 5rem;
-  font-weight: 300;
 }
 
 .hero__text {
-  margin-top: 2rem;
   letter-spacing: 0.5rem;
   text-transform: uppercase;
+  margin-top: 2rem;
+}
+
+/* Area of the second Page*/
+.section {
+  position: relative;
+  height: 100vh;
+  z-index: -10;
+  display: inline-block;
+  text-align: center;
+}
+
+.section__img {
+  margin-top: 5rem;
+  width: 80%;
+  height: 50%;
+  object-fit: cover;
+  object-position: top;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: rgb(189, 185, 185);
+}
+
+.section__text1 {
+  margin-top: 3rem;
+  margin-left: 11rem;
+  margin-right: 12rem;
+}
+
+.section__text2 {
+  margin-top: 8rem;
+  text-transform: uppercase;
+  letter-spacing: 2rem;
+}
+
+/* Area of the Three Page*/
+.section02 {
+  display: inline-block;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.section__title__1 {
+  text-align: center;
+}
+.section__img-inline {
+  text-align: right;
+  width: 30vw;
+  max-height: 80vh;
+  object-fit: cover;
+  border-style: solid;
+  border-radius: 3rem 0 3rem 0;
+  border-left-color: blue;
+  border-top-color: aqua;
+  border-bottom-color: rgb(89, 118, 199);
+  margin-left: 10%;
+  margin-top: 5%;
+  float: left;
+}
+
+.section__text-inline__1 {
+  margin-top: 30vh;
+  margin-right: 10vw;
+  margin-left: 50vw;
+  height: 50vh;
+  letter-spacing: 0.5rem;
+  line-height: 1.5;
+}
+
+/* Area of the four Page*/
+
+.section__seal {
+  display: inline-block;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.section__text__seal {
+  padding-left: 20vw;
+  padding-right: 20vw;
+  padding-top: 10vh;
+  line-height: 2;
+  letter-spacing: 1rem;
+}
+
+.section__img {
+  border-style: dotted;
+}
+
+/* Area of the five Page*/
+
+.section__meet {
+  width: 100vw;
+  min-height: 100vh;
+  display: inline-block;
+}
+
+.section__title__meet {
+  text-align: center;
+}
+
+.gallery {
+  width: 50%;
+  margin-top: 5%;
+  float: right;
+  background-color: #5c3ed50f;
+  border-radius: 5rem;
+  margin-right: 5rem;
+  text-align: center;
+}
+
+.gallery__img-wrapper {
+}
+
+.gallery__img {
+  width: 25rem;
+  height: 22rem;
+  border-style: inset;
+  border-radius: 10rem 10rem 10rem 0;
+  margin: 0.5rem;
+  margin-top: 1.5rem;
+  border-color: #4f4fa3bd;
+}
+
+.section__text_meet {
+  width: 30%;
+  margin-top: 20%;
+  letter-spacing: 1rem;
+  margin-left: 10%;
+}
+
+/* Area of the Six Page*/
+
+.section_inline {
+  display: inline-block;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.section__title {
+  text-align: center;
+}
+
+.section__text-inline {
+  margin-top: 15%;
+  margin-left: 50%;
+  margin-right: 10%;
+  line-height: 4rem;
+}
+
+/* Area of the Seven Page*/
+
+.footer {
+  text-align: center;
 }
